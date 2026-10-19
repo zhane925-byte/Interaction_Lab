@@ -1,0 +1,121 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: Helvetica, Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 40px;
+  background-color: lightgrey;
+}
+
+.name{
+  font-size: 18px;
+  font-weight: bold;
+  color:black;
+}
+
+nav{
+  display: flex;
+  gap: 40px;
+}
+
+nav a{
+  text-decoration: none;
+  font-weight: bold;
+  color:black;
+  font-size: 16px;
+}
+
+nav a:hover{
+  text-decoration: underline;
+}
+
+.intro{
+  padding: 50px 40px;
+  border-bottom: 1px solid black;
+}
+
+.intro-top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+h1{
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.intro-text{
+  margin-top: 30px;
+  font-size: 16px;
+}
+
+main{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 80px;
+  padding: 40px;
+}
+
+.project{
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.project h2{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.project-image{
+  width: 100%;
+  height: 250px;
+  background-color: lightgrey;
+}
+
+.project a{
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.project a:hover{
+  text-decoration: underline;
+}
+
+.coming-soon h2{
+  color:black;
+}
+
+.coming-soon .project-image{
+  background-color:lightgrey;
+}
+
+#about{
+  padding: 60px 40px;
+  border-top: 1px solid black;
+}
+
+#about h2{
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+#about p{
+  font-size: 18px;
+  line-height: 1.6;
+}
